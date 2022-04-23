@@ -2,9 +2,13 @@
 you need .
 
 `termux-setup-storage`
+
 `pkg install git -y`
+
 `git clone https://github.com/k3746ov/nekropol`
+
  `cd nekropol`
+
 
 
 If termux packages are not installed, 
@@ -14,10 +18,15 @@ Otherwise it will not work in telegram scraper.
 
 
 `cd termuxpackage`
+
 `bash termuxpackage.sh`
+
 `cd..`
+
 `cd telegramscraper`
+
 `python3 adder.py`
+
 
 
 you need api id and api hash,
