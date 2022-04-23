@@ -26,6 +26,7 @@ Otherwise it will not work in telegram scraper.
 
 
 `bash termuxpackage.sh`
+
 ⭐(1)
 
 `ls`
