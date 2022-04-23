@@ -30,6 +30,9 @@ Otherwise it will not work in telegram scraper.
 
 `ls`
 
+#telegram_scraper - helps to migrate members from groups 
+you are a member to other groups.
+
 `python3 adder.py`
 
 
