@@ -1,4 +1,4 @@
-[screenshot](https://www.google.com/amp/s/9to5mac.com/2021/08/18/t-mobile-hack-confirmed/amp)
+[screenshot]()
 
 
 📢 Download the first 
