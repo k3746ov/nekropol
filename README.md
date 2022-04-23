@@ -17,13 +17,11 @@ Otherwise it will not work in telegram scraper.
 
 
 
-`cd termuxpackage`
 
 `bash termuxpackage.sh`
+(1)
 
-`cd..`
-
-`cd telegramscraper`
+`ls`
 
 `python3 adder.py`
 
