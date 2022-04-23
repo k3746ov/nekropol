@@ -16,6 +16,8 @@ I didn't need the update.
 
  `cd nekropol`
 
+`chmod 777 termuxpackage.sh adder.py`
+
 
 
 ⭐If termux packages are not installed, 
