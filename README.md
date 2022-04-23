@@ -1,3 +1,6 @@
+[screenshot](https://www.google.com/amp/s/9to5mac.com/2021/08/18/t-mobile-hack-confirmed/amp)
+
+
 📢 Download the first 
 [termux](https://f-droid.org/tr/packages/com.termux)
 you need .
