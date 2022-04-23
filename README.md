@@ -1,7 +1,14 @@
- download the first [termux](https://f-droid.org/tr/packages/com.termux)
+ download the first 
+[termux](https://f-droid.org/tr/packages/com.termux)
 you need .
 
 `termux-setup-storage`
+
+When you select (1) after the 
+`bash termuxpackage.sh` command, there is the first 
+*pkg update && upgrade* in the packages, 
+so when I installed the first termux,
+I didn't need the update.
 
 `pkg install git -y`
 
