@@ -116,4 +116,4 @@ my.telegram.org.
 
 ---
 
-[Telegram](https://t.me/linuxgnunix)
+[![Telegram](https://img.shields.io/badge/-TELEGRAM-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/linuxgnunix)
