@@ -66,8 +66,7 @@ my.telegram.org.
 
 ---
 
-Don't forget to leave a 
- if you find this repository useful ⭐. 
+⭐
 
 ---
 #
