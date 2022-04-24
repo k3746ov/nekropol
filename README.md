@@ -47,4 +47,5 @@ you are a member to other groups.
 you can get api id and api hash by registering at 
 my.telegram.org.
 
-Don't forget to leave a ⭐ if you find this repository useful.
+Don't forget to leave a 
+⭐ if you find this repository useful.
