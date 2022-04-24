@@ -47,4 +47,3 @@ you are a member to other groups.
 you can get api id and api hash by registering at 
 my.telegram.org.
 
-[button 1](buttonurl://telegram.com/k3746ob)
