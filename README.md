@@ -116,4 +116,4 @@ my.telegram.org.
 
 ---
 
-[Telegram]: https://t.me/linuxgnunix
+[Telegram]: https://telegram.com/linuxgnunix
