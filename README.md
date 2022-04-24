@@ -6,7 +6,8 @@
 
 ---
 
-# 📢 Download the first 
+# 📢 
+Download the first 
 [termux](https://f-droid.org/tr/packages/com.termux)
 you need .
 
@@ -51,7 +52,7 @@ you can get api id and api hash by registering at
 my.telegram.org.
 
 Don't forget to leave a 
-⭐ if you find this repository useful.
+ if you find this repository useful ⭐. 
 
 ---
 #
