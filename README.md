@@ -116,4 +116,4 @@ my.telegram.org.
 
 ---
 
-[Telegram]: https://telegram.com/linuxgnunix
+[<img align="left" alt="linuxgnunix | Telegram" width="40px" src="https://thumbs.gfycat.com/OrnateOrneryFoal-max-1mb.gif" />][telegram]
