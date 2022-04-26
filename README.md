@@ -67,7 +67,7 @@ you can get api id and api hash by registering at
 
 ---
 
-⭐ FOLLOW ME
+⭐  [FOLLOW ME](https://github.com/k3746ov) 
 
 ---
 #
