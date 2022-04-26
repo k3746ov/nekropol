@@ -1,6 +1,7 @@
 # 
 <img width="30px" src="https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif" />
 You can help me for my Github repository.  And don't forget to follow and star.
+
 ---
 
 <h4 align="center">Visitor's count :eyes:</h4>
@@ -13,10 +14,6 @@ Download the first
 [termux](https://f-droid.org/tr/packages/com.termux)
 you need .
 
---- 
-
-`termux-setup-storage`
-
 ---
 
 ❗When you select (1) after the 
@@ -27,6 +24,24 @@ I didn't need the update.
 
 ---
 
+❗If termux packages are not installed, 
+you need to install termux pakets.
+Otherwise it will not work in telegram scraper.
+
+---
+
+❗#telegram_scraper - helps to migrate members from groups 
+you are a member to other groups. 
+
+❗you need api id and api hash,
+you can get api id and api hash by registering at 
+
+[api id-hash](https://my.telegram.org.)
+
+--- 
+
+`termux-setup-storage`
+
 `pkg install git -y`
 
 `git clone https://github.com/k3746ov/nekropol`
@@ -35,43 +50,17 @@ I didn't need the update.
 
 `chmod 777 termuxpackage.sh adder.py`
 
----
-
-❗If termux packages are not installed, 
-you need to install termux pakets.
-Otherwise it will not work in telegram scraper.
-
----
-
 `bash termuxpackage.sh`
 
-❗(1)
-
 `ls`
-
----
-
-❗#telegram_scraper - helps to migrate members from groups 
-you are a member to other groups. 
-
----
 
 `python3 adder.py`
 
 ---
 
-❗you need api id and api hash,
-you can get api id and api hash by registering at 
-
-[api id-hash](https://my.telegram.org.)
+⭐  [FOLLOW ME](https://github.com/k3746ov) 👍
 
 ---
-
-⭐  [FOLLOW ME](https://github.com/k3746ov) 
-
----
-#
-
 
 ![Java](http://img.shields.io/badge/-Java-5B4638?style=flat-square&logo=java&logoColor=ffffff)
 ![C](http://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=ffffff)
