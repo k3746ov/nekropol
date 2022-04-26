@@ -94,5 +94,5 @@ you can get api id and api hash by registering at
 ---
 
 <p hizalama="merkez">
-<img src="https://visitor-badge.laobi.icu/badge?page_id=saviomartin" id="counter">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=k3746ov" id="counter">
 </p>
