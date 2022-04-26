@@ -4,11 +4,6 @@ You can help me for my Github repository.  And don't forget to follow and star.
 
 ---
 
-<h4 align="center">Visitor's count :eyes:</h4>
-
-<p align="center"><img src="https://profile-counter.glitch.me/{k3746ov}/count.svg" alt="k3746ov :: Visitor's Count" /></p>
-
----
 
 Download the first 
 [termux](https://f-droid.org/tr/packages/com.termux)
