@@ -62,7 +62,8 @@ you are a member to other groups.
 
 ❗you need api id and api hash,
 you can get api id and api hash by registering at 
-https://my.telegram.org.
+
+[api id-hash](https://my.telegram.org.)
 
 ---
 
