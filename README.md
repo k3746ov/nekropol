@@ -90,3 +90,9 @@ you can get api id and api hash by registering at
 
     
 [![Telegram](https://img.shields.io/badge/-TELEGRAM-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/linuxgnunix)  [![Telegram](https://img.shields.io/badge/-TELEGRAM-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/fedreasonekropolll)
+
+---
+
+<p hizalama="merkez">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=saviomartin" id="counter">
+</p>
