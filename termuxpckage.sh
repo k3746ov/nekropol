@@ -7,11 +7,11 @@ printf "
 [2] Exit
 "
 
-######user input##########
+#user input
 
 read -e -p $'enter option : ' vote
 
-#############conditions####################
+#conditions
 
 if [[ $vote == 1 ]];then
         pkg update && pkg upgrade
