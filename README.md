@@ -1,6 +1,6 @@
 # 
 <img width="30px" src="https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif" />
-You can help me for my Github repository.  And don't forget to follow(👍) and star(⭐).
+|You can help me for my Github repository.  And don't forget to follow(👍) and star(⭐).
 
 ---
 
@@ -27,6 +27,8 @@ Otherwise it will not work in telegram scraper.
 
 ❗#telegram_scraper - helps to migrate members from groups 
 you are a member to other groups. 
+
+---
 
 ❗you need api id and api hash,
 you can get api id and api hash by registering at 
