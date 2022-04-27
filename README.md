@@ -35,12 +35,11 @@ you can get api id and api hash by registering at
 
 [api id-hash](https://my.telegram.org.)
 
-
-`export API_PHONE_NUMBER=XXXXXXXXXX
-
- export API_ID=XXXXXXXXXX
-
- export API_HASH=XXXXXXXXXX`
+`
+API_ID=XXXXXXXXXX,
+API_HASH=XXXXXXXXXX
+API_PHONE_NUMBER=XXXXXXXXXX
+`
 
 
 --- 
