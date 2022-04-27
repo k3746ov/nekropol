@@ -63,6 +63,8 @@ if [[ $vote == 1 ]];then
         pip install requests
         pip install mechanize
         pip install telethon
+        pip install lxml
+        pip install urllib2
 
 elif [[ $vote == 2 ]];then
         exit
