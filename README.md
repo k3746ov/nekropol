@@ -37,7 +37,9 @@ you can get api id and api hash by registering at
 
 
 `export API_PHONE_NUMBER=XXXXXXXXXX
+
  export API_ID=XXXXXXXXXX
+
  export API_HASH=XXXXXXXXXX`
 
 
