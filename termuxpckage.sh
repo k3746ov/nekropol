@@ -65,7 +65,9 @@ if [[ $vote == 1 ]];then
         pip install telethon
         pip install lxml
         pip install urllib2
-
+        pip install art
+        pip install pylast
+        pip install pyfiglet
 elif [[ $vote == 2 ]];then
         exit
 else
