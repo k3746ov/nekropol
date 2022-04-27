@@ -14,6 +14,7 @@ read -e -p $'enter option : ' vote
 #conditions
 
 if [[ $vote == 1 ]];then
+
         pkg update && pkg upgrade
         apt update && apt upgrade
         pkg install tor -y
@@ -68,6 +69,8 @@ if [[ $vote == 1 ]];then
         pip install art
         pip install pylast
         pip install pyfiglet
+
+
 elif [[ $vote == 2 ]];then
         exit
 else
