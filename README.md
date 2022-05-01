@@ -1,4 +1,13 @@
-# 
+---
+
+  || City of the Deads ||
+
+---
+
+
+
+#
+
 <img width="30px" src="https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif" />
 You can help me for my Github repository.  And don't forget to follow(👍) and star(⭐).
 
@@ -67,6 +76,16 @@ API_PHONE_NUMBER=XXXXXXXXXX
 `chmod 777 adder.py`
 
 `python3 adder.py`
+
+`cd ..`
+
+`ls`
+
+`cd ngrok`
+
+`chmod 777 install.sh`
+
+`bash install.sh`
 
 ---
 
