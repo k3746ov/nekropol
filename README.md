@@ -101,3 +101,6 @@ Active Repo
 <p hizalama="merkez">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=k3746ov" id="counter">
 </p>
+
+---
+*18.12.2021*
