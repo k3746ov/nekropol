@@ -1,6 +1,7 @@
 #!/bin/bash
 #k3746ov
-echo " simple and beautiful 😉 "
+#22:00/01.05.2022
+echo -e "\033[31mSİMPLE AND BEATİFUL 😉\033[0m"
 sleep 1.0
 echo
 apt install wget zip unzip
@@ -8,7 +9,7 @@ echo
 
 sleep 3.0
 
-echo "Downloading Ngrok..."
+echo -e "\033[33;4mDOWNLOADİNG NGROK\033[0m"
 
 sleep 5.0
 #
@@ -27,14 +28,15 @@ cd $HOME
 
 chmod 777 ngrok
 
-echo "Installed ngrok and moved it to the home directory."
+echo -e "\033[31m Installed ngrok and moved it to the home directory.\033[0m"
 
-echo " Link your account : "
+echo -e "\033[31m Link your account :\033[0m"
 
-echo " ./ngrok config add-authtoken (You can find it from the authtoken account by opening an ngrok account.) "
+echo -e "\033[31m ./ngrok config add-authtoken (You can find it from the authtoken account by opening an ngrok account.)\033[0m" 
 
-echo " Fire it up (./ngrok http 80) "
-echo " Type `cd` into the directory to go to your home directory after 10 seconds "
+echo -e "\033[31m Fire it up (./ngrok http 80) \033[0m"
+
+echo -e "\033[31m Type `cd` into the directory to go to your home directory after 10 seconds \033[0m"
 
 sleep 10.0 
 
