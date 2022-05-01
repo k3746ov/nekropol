@@ -52,11 +52,19 @@ API_PHONE_NUMBER=XXXXXXXXXX
 
  `cd nekropol`
 
-`chmod 777 termuxpackage.sh adder.py`
+`cd Termux Packages`
+
+`chmod 777 termuxpackages.sh`
 
 `bash termuxpackage.sh`
 
-`ls`
+ `cd ..`
+
+ `ls`
+
+`cd Telegram Scraper`
+
+`chmod 777 adder.py`
 
 `python3 adder.py`
 
