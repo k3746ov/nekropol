@@ -34,5 +34,8 @@ echo " Link your account : "
 echo " ./ngrok config add-authtoken (You can find it from the authtoken account by opening an ngrok account.) "
 
 echo " Fire it up (./ngrok http 80) "
+echo " Type `cd` into the directory to go to your home directory after 10 seconds "
+
+sleep 10.0 
 
 
