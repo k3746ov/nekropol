@@ -1,4 +1,7 @@
 #!/bin/bash
+#k3746ov
+echo " simple and beautiful 😉 "
+sleep 1.0
 echo
 apt install wget zip unzip
 echo
@@ -25,6 +28,11 @@ cd $HOME
 chmod 777 ngrok
 
 echo "Installed ngrok and moved it to the home directory."
+
 echo " Link your account : "
+
 echo " ./ngrok config add-authtoken (You can find it from the authtoken account by opening an ngrok account.) "
+
 echo " Fire it up (./ngrok http 80) "
+
+
