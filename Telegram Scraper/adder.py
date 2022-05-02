@@ -95,7 +95,7 @@ for s in range(v):
     client = TelegramClient("id{}".format(x), api_id, api_hash)
     client.start()
     name=utils.get_display_name(client.get_me())
-    print(a+" \n\n  ❤Successfully connected as {}❤\n\n".format(name))
+    print(a+" \n\n  Successfully connected as {} \n\n".format(name))
     t+=2
     lines=[]
     chats = []
