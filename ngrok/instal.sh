@@ -40,4 +40,6 @@ echo -e "\033[31m Type `cd` into the directory to go to your home directory afte
 
 sleep 10.0 
 
+cd
+
 
