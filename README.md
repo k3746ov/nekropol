@@ -89,7 +89,7 @@ the port must be open for ngrok to work .
 
 `chmod 777 termuxpackages.sh`
 
-`bash termuxpackage.sh`
+`bash termuxpackages.sh`
 
  `cd ..`
 
