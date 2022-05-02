@@ -1,5 +1,4 @@
 
-
 ---
 
   || City of the Deads ||
@@ -52,8 +51,14 @@ API_HASH=XXXXXXXXXX
 API_PHONE_NUMBER=XXXXXXXXXX
 `
 
-
 --- 
+
+To install ngrok, you need to register from ngrok site, 
+copy the authtoken, paste it into terminal, 
+then type `/ngrok http 80' and it will work, ... 
+the port must be open for ngrok to work .
+
+---
 
 `termux-setup-storage`
 
