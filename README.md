@@ -113,7 +113,8 @@ the port must be open for ngrok to work .
 
 ---
 
-⭐  [FOLLOW ME](https://github.com/k3746ov) 👍
+ | ⭐  [FOLLOW ME](https://github.com/k3746ov) 👍 |
+ |------------------------------------------------|
 
 ---
 
