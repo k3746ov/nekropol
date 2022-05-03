@@ -7,6 +7,8 @@ echo
 apt install wget zip unzip
 echo
 
+clear
+
 sleep 3.0
 
 echo -e "\033[33;4mDOWNLOADİNG NGROK\033[0m"
@@ -16,6 +18,8 @@ sleep 5.0
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm.tgz
 #
 tar -xzvf ngrok-v3-stable-linux-arm.tgz
+
+clear
 
 sleep 1.0
 
@@ -40,6 +44,6 @@ echo -e "\033[31m Type `cd` into the directory to go to your home directory afte
 
 sleep 10.0 
 
-cd
+clear
 
 
