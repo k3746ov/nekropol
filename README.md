@@ -111,6 +111,16 @@ the port must be open for ngrok to work .
 
 `bash install`
 
+`cd ..`
+
+`cd KaliNethunter`
+
+`ls`
+
+`chmod 777 install `
+
+`bash install `
+
 ---
 
  | ⭐  [FOLLOW ME](https://github.com/k3746ov) 👍 |
