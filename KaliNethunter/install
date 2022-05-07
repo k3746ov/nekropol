@@ -18,6 +18,7 @@ termux-setup-storage -y
 #
 
 echo
+clear
 
 #
 
