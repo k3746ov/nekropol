@@ -4,44 +4,77 @@
 #City Of The Deads
 #k3746ov
 #
+
 echo
+
 #
+
 pkg update && pkg upgrade -y
+
 #
+
 termux-setup-storage -y
+
 #
+
 echo
+
 #
+
 echo -e "\036[36;4m Installing wget package \036[0m"
+
 #
-sleep 1.0
+
+sleep 2.0
+
 echo
+
 #
+
 pkg install wget -y
+
 #
+
 echo
-sleep 1.0
+
+sleep 2.0
+
 clear
+
 #
+
 echo
+
 #
 
 echo -e "\033[33;4m DOWNLOADİNG KaliNethunter \033[0m"
 
-sleep 1.0
-echo
-#
-wget -O install-nethunter-termux https://offs.ec/2MceZWr
-#
 sleep 3.0
+
 echo
+
 #
-chmod +x install-nethunter-termux
+
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+
+#
+
+sleep 5.0
+
 echo
-sleep 1.0
-./install-nethunter-termux
+
+#
+
+chmod +x install-nethunter-termux
+
+echo
 
 sleep 1.0
+
+./install-nethunter-termux
+
+
+sleep 4.0
 
 
 
