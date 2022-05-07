@@ -12,7 +12,9 @@ termux-setup-storage -y
 #
 echo
 #
+
 echo -e "\36[0m Installing wget package \36[0m"
+
 #
 sleep 1.0
 echo
@@ -25,19 +27,23 @@ clear
 #
 echo
 #
+
 echo -e "\033[33;4m DOWNLOADİNG KaliNethunter \033[0m"
+
 sleep 1.0
 echo
 #
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
 #
-sleep 0.2
+sleep 3.0
 echo
 #
 chmod +x install-nethunter-termux
 echo
 sleep 1.0
 ./install-nethunter-termux
+
+sleep 1.0
 
 
 
