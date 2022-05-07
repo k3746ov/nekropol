@@ -1,0 +1,32 @@
+#!/bin/bash
+#
+#Nekropol
+#City of the Deads
+#k3746ov
+#
+echo
+echo
+sleep 1.0
+termux-setup-storage -y
+
+echo
+
+pkg install wget -y
+
+echo 
+
+sleep 1.0
+echo -e "Downloading KaliNethunter"
+echo
+sleep 1.0
+echo
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+
+echo
+
+chmod +x install-nethunter-termux
+
+echo
+sleep 1.0
+
+./install-nethunter-termux
