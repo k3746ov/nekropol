@@ -107,9 +107,9 @@ the port must be open for ngrok to work .
 
 `cd ngrok`
 
-`chmod 777 install.sh`
+`chmod 777 install`
 
-`bash install.sh`
+`bash install`
 
 ---
 
