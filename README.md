@@ -5,9 +5,9 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 9.1.+   | :white_check_mark: |
+| 10.0.+  | :white_check_mark: |
 | 5.0.x   | :x:                |
-| 7.0.+   | :white_check_mark: |
+| 8.0.+   | :white_check_mark: |
 | < 4.0   | :x:                |
 
 
@@ -74,6 +74,13 @@ To install ngrok, you need to register from ngrok site,
 copy the authtoken, paste it into terminal, 
 then type `/ngrok http 80' and it will work, ... 
 the port must be open for ngrok to work .
+
+---
+
+Kali Nethunter - installation is very simple, 
+all you have to do is download termux, 
+install git package, 
+then clone git repository and start .
 
 ---
 
