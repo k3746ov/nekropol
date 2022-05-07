@@ -12,9 +12,7 @@ termux-setup-storage -y
 #
 echo
 #
-
-echo -e "\36[0m Installing wget package \36[0m"
-
+echo -e "\36[0mInstalling wget package\36[0m"
 #
 sleep 1.0
 echo
