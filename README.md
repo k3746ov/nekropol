@@ -95,7 +95,7 @@ the port must be open for ngrok to work .
 
  `ls`
 
-`cd Telegram Scraper`
+`cd TelegramScraper`
 
 `chmod 777 adder.py`
 
