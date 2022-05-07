@@ -39,7 +39,7 @@ you need .
 ---
 
 ❗When you select (1) after the 
-`bash termuxpackage.sh` command, there is the first 
+`bash install` command, there is the first 
 *pkg update && upgrade* in the packages, 
 so when I installed the first termux,
 I didn't need the update.
@@ -85,11 +85,11 @@ the port must be open for ngrok to work .
 
  `cd nekropol`
 
-`cd Termux Packages`
+`cd TermuxPackages`
 
-`chmod 777 termuxpackages.sh`
+`chmod 777 install`
 
-`bash termuxpackages.sh`
+`bash install`
 
  `cd ..`
 
