@@ -3,8 +3,8 @@
 #k3746ov
 
 printf "
-[1]\033[31mPackages install\033[0m
-[2] Exit
+[1] \033[32mPackages install\033[0m
+[2] \33[31mExit\33[0m
 "
 
 #user input
