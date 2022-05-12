@@ -74,5 +74,5 @@ if [[ $vote == 1 ]];then
 elif [[ $vote == 2 ]];then
         exit
 else
-        printf " \33[31merror\33[0m "
+        printf " \33[31mERROR\33[0m "
 fi
