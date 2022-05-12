@@ -9,7 +9,7 @@ printf "
 
 #user input
 
-read -e -p $'enter option : ' vote
+read -e -p $'\33[33menter option\33[0m : ' vote
 
 #conditions
 
