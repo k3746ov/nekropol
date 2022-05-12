@@ -3,7 +3,7 @@
 #k3746ov
 
 printf "
-[1] Packages install
+[1]\033[31mPackages install\033[0m
 [2] Exit
 "
 
