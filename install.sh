@@ -14,5 +14,5 @@ echo
 
 read -e -p $' Choose an option:' option
 if [[ $option == 1 ]];then
-cd $HOME/nekropol/core
+cd core
 bash install-1.sh
