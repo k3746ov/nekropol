@@ -1,11 +1,10 @@
 #!/usr/bin/bash
 clear
 
-print" \33[32m
+print"
 [1] Termux Packages
 [2] Telegram Scraper
 [3] Ngrok
 [4] KaliNethunter
 [0] Exit
-\32[0m
 "
