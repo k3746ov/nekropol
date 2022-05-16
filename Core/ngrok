@@ -2,37 +2,13 @@
 #k3746ov
 #22:00/01.05.2022
 
-echo -e "\033[32mSİMPLE AND BEATİFUL 😉\033[0m"
-
-sleep 1.0
-
-echo -e "\33[32mInstalling required packages...\33[0m"
+echo
 
 apt install wget zip unzip
 
-echo
-
-clear
-
-sleep 3.0
-
-echo -e "\033[32;4mDOWNLOADİNG NGROK!\033[0m"
-
-sleep 5
-
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm.tgz
 
-echo -e "\33[32mExtracting ngrok file...\33[0m"
-
-sleep 3
-
 tar -xzvf ngrok-v3-stable-linux-arm.tgz
-
-clear
-
-sleep 1.0
-
-echo
 
 rm -rf ngrok-v3-stable-linux-arm.tgz
 
@@ -41,16 +17,3 @@ mv ngrok /$HOME
 cd $HOME
 
 chmod 777 ngrok
-
-clear
-
-echo -e "\33[32mSent to ngrok HOME address!\33[0m"
-
-sleep 3
-
-clear
-
-cd $HOME/nekropol
-bash install.sh
-
-
