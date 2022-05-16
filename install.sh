@@ -3,7 +3,7 @@
 echo
 
 echo
-if wget --spider https://raw.githubusercontent.com/k3746ov/nekropol/core; then
+
 echo
 
 printf "
