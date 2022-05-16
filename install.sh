@@ -2,12 +2,12 @@
 
 echo
 
-echo -e "\33[32mWELCOME TO NEKROPOL\33[0m"
-
 echo
 
+echo -e "\33[32mWELCOME TO NEKROPOL\33[0m"
+
 printf "
-[01]  \33[31mTermux Packages\33[0m
+[01]  \33[34mTermux Packages\33[0m
 [02]  \33[34mTelegram Scraper\33[0m
 [03]  \33[31mNgrok\33[0m
 [04]  \33[32mKaliNethunter\33[0m
