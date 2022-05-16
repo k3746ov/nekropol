@@ -8,7 +8,7 @@ apt install wget -y
 
 clear
 
-echo -e " \33[32mwget package installed\33[0m"
+echo -e " \33[32mwget package installed!\33[0m"
 
 sleep 2
 
