@@ -12,7 +12,7 @@ printf "
 
 echo
 
-read -p $' Choose an option:' option
-if [[ $option == 1 ]]; then
+read -e -p $' Choose an option:' option
+if [[ $option == 1 ]];then
 cd $HOME/nekropol/core
 bash install-1.sh
