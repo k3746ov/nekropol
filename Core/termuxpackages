@@ -2,10 +2,7 @@
 
 #k3746ov
 
-echo -e "\33[32mInstalling termux packages...\33[0m"
-
-sleep 3
-
+echo
         pkg update && pkg upgrade
         apt update && apt upgrade
         pkg install tor -y
@@ -47,13 +44,6 @@ sleep 3
         pkg install nano
         pkg install curl -y
         pkg install cat
-
-clear
-
-echo -e "\33[32mInstalled necessary packages for termux now installing pip packages...\33[0m
-
-sleep 3
-
         pip install --upgrade pip
         pip install colorama
         pip install bs4
@@ -68,14 +58,3 @@ sleep 3
         pip install art
         pip install pylast
         pip install pyfiglet
-
-clear
-
-echo -e "\33[32mpip packages installed!\33[0m"
-
-sleep 4
-
-clear
-
-cd $HOME/nekropol
-bash install.sh
