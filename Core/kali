@@ -1,28 +1,10 @@
 #!/bin/bash
 
-echo -e "\33[32mInstalling wget package...\33[0m"
-
-sleep 2
-
 apt install wget -y
-
-clear
-
-echo -e " \33[32mwget package installed!\33[0m"
-
-sleep 2
-
-clear
-
-echo -e " \33[32mInstalling KaliNethunter...\33[0m"
 
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
 
-clear
-
 chmod +x install-nethunter-termux
-
-clear
 
 ./install-nethunter-termux
 
