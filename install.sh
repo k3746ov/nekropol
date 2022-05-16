@@ -21,19 +21,19 @@ read -e -p $'\33[33menter option\33[0m : ' option
 
 if [[ $option == 01 ]];then
 cd $HOME/nekropol/Core
-bash install-1.sh
+bash tmpc
 
 elif [[ $option == 02 ]];then
 cd $HOME/nekropol/Core
-python3 adder-2.py
+python3 adder.py
 
 elif [[ $option == 03 ]];then
 cd $HOME/nekropol/Core
-bash install-3.sh
+bash ngrok
 
 elif [[ $option == 04 ]];then
 cd $HOME/nekropol/Core
-bash install-4.sh
+bash kali
 
 elif [[ $option == 05 ]];then
 exit
