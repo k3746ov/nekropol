@@ -26,7 +26,4 @@ elif [[ $option == 4 || $option == 04 ]]; then
 cd $HOME/nekropol/core
 bash install-4.sh
 elif [[ $option == 5 ]]; then
-exit 1
-else
-echo
-printf " Invalid Selection!"
+exit
