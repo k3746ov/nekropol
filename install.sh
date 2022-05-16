@@ -34,5 +34,5 @@ bash install-4.sh
 elif [[ $option == 05 ]];then
 exit
 else
-printf "ERROR"
+printf " \33[31mERROR\33[0m "
 fi
