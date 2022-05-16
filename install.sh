@@ -17,13 +17,13 @@ read -p $' Choose an option:' option
 echo 
 
 if [[ $option == 1 || $option == 01 ]]; then
-cd $HOME/nekropol/core/main
+cd $HOME/nekropol/core
 bash install-1.sh
 elif [[ $option == 2 || $option == 02 ]]; then
-cd $HOME/nekropol/core/main
+cd $HOME/nekropol/core
 python3 adder-2.py
 elif [[ $option == 3 || $option == 03 ]]; then
-cd $HOME/nekropol/core/main
+cd $HOME/nekropol/core
 bash install-3.sh
 elif [[ $option == 4 || $option == 04 ]]; then
 cd $HOME/nekropol/core
