@@ -4,7 +4,7 @@ echo
 
 echo
 
-echo -e "\33[32mWELCOME TO NEKROPOL\33[0m"
+echo -e "WELCOME TO NEKROPOL"
 
 printf "
 [01]  \33[34mTermux Packages\33[0m
