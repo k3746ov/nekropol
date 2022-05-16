@@ -2,16 +2,16 @@
 
 echo
 
-echo
+echo -e "\33[32mWELCOME TO NEKROPOL\33[0m"
 
 echo
 
 printf "
-[01]  Termux Packages
-[02]  Telegram Scraper
-[03]  Ngrok
-[04]  KaliNethunter
-[05]  Exit
+[01]  \33[31mTermux Packages\33[0m
+[02]  \33[34mTelegram Scraper\33[0m
+[03]  \33[31mNgrok\33[0m
+[04]  \33[32mKaliNethunter\33[0m
+[05]  \33[32mExit\33[0m
 "
 #user option
 
@@ -21,7 +21,7 @@ read -e -p $'\33[33menter option\33[0m : ' option
 
 if [[ $option == 01 ]];then
 cd $HOME/nekropol/Core
-bash tmpc
+bash termuxpackages
 
 elif [[ $option == 02 ]];then
 cd $HOME/nekropol/Core
