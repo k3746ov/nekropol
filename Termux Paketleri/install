@@ -28,6 +28,7 @@ if [[ $vote == 1 ]];then
         pkg install w3m -y
         pkg install nmap -y
         pkg install openssl -y
+        pkg install clang -y
         pkg install openssh -y
         pkg install nodejs -y
         pkg install toilet -y
