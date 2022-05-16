@@ -10,4 +10,6 @@ printf "
 [05]  Exit
 "
 
+echo
+
 read -p $' Choose an option:' option
