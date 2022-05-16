@@ -2,19 +2,6 @@
 
 #k3746ov
 
-printf "
-[1] \033[32mPackages install\033[0m
-[2] \33[31mExit\33[0m
-"
-
-#user input
-
-read -e -p $'\33[33menter option\33[0m : ' vote
-
-#conditions
-
-if [[ $vote == 1 ]];then
-
         pkg update && pkg upgrade
         apt update && apt upgrade
         pkg install tor -y
@@ -70,10 +57,3 @@ if [[ $vote == 1 ]];then
         pip install art
         pip install pylast
         pip install pyfiglet
-
-
-elif [[ $vote == 2 ]];then
-        exit
-else
-        printf " \33[31mERROR\33[0m "
-fi
