@@ -16,7 +16,7 @@ clear
 
 sleep 3.0
 
-echo -e "\033[32;4mDOWNLOADİNG NGROK\033[0m"
+echo -e "\033[32;4mDOWNLOADİNG NGROK!\033[0m"
 
 sleep 5
 
