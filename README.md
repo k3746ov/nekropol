@@ -7,52 +7,6 @@
 
 ---
 
-`termux-setup-storage`
-
-`pkg install git -y`
-
-`git clone https://github.com/k3746ov/nekropol`
-
- `cd nekropol`
-
-`cd TermuxPackages`
-
-`chmod 777 install`
-
-`bash install`
-
- `cd ..`
-
- `ls`
-
-`cd TelegramScraper`
-
-`chmod 777 adder.py`
-
-`python3 adder.py`
-
-`cd ..`
-
-`ls`
-
-`cd ngrok`
-
-`chmod 777 install`
-
-`bash install`
-
-`cd ..`
-
-`cd KaliNethunter`
-
-`ls`
-
-`chmod 777 install `
-
-`bash install `
-
----
-
  | ⭐  [FOLLOW ME](https://github.com/k3746ov) 👍 |
  |------------------------------------------------|
 
