@@ -13,7 +13,7 @@ printf "
 echo
 
 read -p $' Choose an option:' option
-if [[ $option == 1 || $option == 01 ]]; then
+if [[ $option == 1 ]]; then
 cd $HOME/nekropol/core
 bash install-1.sh
 elif [[ $option == 2 || $option == 02 ]]; then
