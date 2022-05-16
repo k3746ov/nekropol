@@ -13,9 +13,6 @@ printf "
 echo
 
 read -p $' Choose an option:' option
-
-echo 
-
 if [[ $option == 1 || $option == 01 ]]; then
 cd $HOME/nekropol/core
 bash install-1.sh
