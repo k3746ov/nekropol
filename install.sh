@@ -10,6 +10,4 @@ printf "
 [05]  Exit
 "
 
-read -e -p $'\33[33menter option\33[0m : ' vote
-
-if [[ $vote == 1 ]];then
+read -p $' Choose an option:' option
