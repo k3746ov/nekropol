@@ -2,6 +2,8 @@
 
 #k3746ov
 
+echo -e "\33[31m                NELROPOL\31[0m"
+
 printf "
 [1] \033[32mPackages install\033[0m
 [2] \33[31mExit\33[0m
