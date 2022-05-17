@@ -4,8 +4,6 @@ echo
 
 echo
 
-print "           \33[32mWELCOME TO NEKROPOL\33[0m"
-
 printf "
 [01]  \33[34mTermux Packages\33[0m
 [02]  \33[34mTelegram Scraper\33[0m
