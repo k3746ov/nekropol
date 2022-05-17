@@ -11,13 +11,14 @@
 
 `pkg install git`
 
-'git clone https://github.com/k3746ov/nekropol`
+`git clone https://github.com/k3746ov/nekropol`
 
 `cd nekropol`
 
 `chmod 777 install.sh`
 
 `bash install.sh`
+
 ---
 
  | ⭐  [FOLLOW ME](https://github.com/k3746ov) 👍 |
