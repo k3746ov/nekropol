@@ -26,11 +26,6 @@
 
 ---
 
-Active Repo
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=k3746ov&repo=nekropol&theme=radical "nekropol")](https://github.com/k3746ov/nekropol)
-
----
-
 ![Python](http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
 
 ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
