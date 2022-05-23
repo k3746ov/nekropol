@@ -2,7 +2,7 @@
 
 clear
 
-echo -e "TERMUX PACKAGES aARE LOADED"
+echo -e "TERMUX PACKAGES ARE LOADED"
 
 pkg update && pkg upgrade
 clear
