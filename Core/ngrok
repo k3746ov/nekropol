@@ -1,6 +1,7 @@
 #!/bin/bash
 #k3746ov
 #22:00/01.05.2022
+clear
 echo -e "\033[31mSİMPLE AND BEATİFUL 😉\033[0m"
 sleep 1.0
 echo
@@ -45,3 +46,7 @@ echo -e "\033[31m Type `cd` into the directory to go to your home directory afte
 sleep 10.0
 
 clear
+echo
+cd
+cd nekropol
+bash install.sh
