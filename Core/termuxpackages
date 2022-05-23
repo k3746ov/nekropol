@@ -115,3 +115,7 @@ pip install pylast
 clear
 pip install pyfiglet
 clear
+echo
+cd
+cd nekropol
+bash install.sh
