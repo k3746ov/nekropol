@@ -30,7 +30,7 @@ def info():
 clear()
 info()
 def ospath():
-    o=int(input(b+" How many telegram accounts do you have ? : "))
+    o=int(input(a+" How many telegram accounts do you have ? : "))
     for po in range(o):
         if os.path.isfile('log.txt'):
             with open('log.txt', 'r') as f:
@@ -39,7 +39,7 @@ def ospath():
             z=v
         else:
             z=0
-        api_id= input(b+' Enter api_id_{}: '.format(z+1))
+        api_id= input(y+' Enter api_id_{}: '.format(z+1))
         api_hash= input('Enter api_hash_{}: '.format(z+1))
         with open('log.txt', 'a') as f:
             f.write(api_id+'\n'+api_hash+'\n')
