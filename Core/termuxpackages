@@ -1,78 +1,115 @@
 #!/bin/bash
 
-#k3746ov
+clear
 
-printf "
-[1] \033[32mPackages install\033[0m
-[2] \33[31mExit\33[0m
-"
+echo
 
-#user input
-
-read -e -p $'\33[33menter option\33[0m : ' vote
-
-#conditions
-
-if [[ $vote == 1 ]];then
-
-        pkg update && pkg upgrade
-        apt update && apt upgrade
-        pkg install tor -y
-        pkg install fish -y
-        pkg install wget -y
-        pkg install python -y
-        pkg install python2 -y
-        pkg install php -y
-        pkg install perl -y
-        pkg install vim -y
-        pkg install w3m -y
-        pkg install nmap -y
-        pkg install openssl -y
-        pkg install openssh -y
-        pkg install nodejs -y
-        pkg install toilet -y
-        pkg install figlet -y
-        pkg install cowsay -y
-        pkg install proot -y
-        pkg install tsu -y
-        apt install ruby -y
-        pkg install tmux -y
-        pkg install yarn -y
-        pkg install zsh -y
-        apt install bysbox -y
-        pkg install mtools
-        apt install cmatrix -y
-        apt install dnsutils -y
-        apt install hashdeep -y
-        apt install hexcurse -y
-        apt install json-c -y
-        apt install netcat -y
-        apt install ninja -y
-        apt install sslscan -y
-        apt install unzip -y
-        apt install termux-tools -y
-        apt install weechat -y
-        pkg install nano
-        pkg install curl -y
-        pkg install cat
-        pip install --upgrade pip
-        pip install colorama
-        pip install bs4
-        pip install pysnmp
-        pip install wordlist
-        pip install lolcat
-        pip install requests
-        pip install mechanize
-        pip install telethon
-        pip install lxml
-        pip install urllib2
-        pip install art
-        pip install pylast
-        pip install pyfiglet
-
-
-elif [[ $vote == 2 ]];then
-        exit
-else
-        printf " \33[31merror\33[0m "
-fi
+pkg update && pkg upgrade
+clear
+apt update && apt upgrade
+clear
+apt install fish -y 
+clear
+apt install tor -y
+clear
+apt install wget -y
+clear
+apt install python2 -y
+clear
+apt install python -y
+clear
+apt install php -y
+clear
+apt install perl -y
+clear
+apt install vim -y
+clera
+apt install w3m -y
+clear
+apt install nmap -y
+clear
+apt install openssl -y
+clear
+apt install openssh -y
+clear
+apt install nodejs -y
+clear
+apt install toiler -y
+clear
+apt install figlet -y
+clear
+apt install cowsay -y
+clear
+apt install proot -y
+clear
+apt install tsu -y 
+clear
+apt install ruby -y
+clear
+apt install tmux -y
+clear
+apt install yarn -y
+clear
+apt install zsh -y
+clear
+apt install bysbox -y
+clear
+apt install mtools -y
+clear
+apt install dnsutils -y
+clear
+apt install hashdeep -y
+clear
+apt install hexcurse -y
+clear
+apt install json-c -y
+clear
+apt install netcat -y
+clear
+apt install ninja -y
+clear
+apt install sslscan -y
+clear
+apt install unzip
+clear
+apt install termux-tools -y
+clear
+apt install weechat -y
+clear
+apt install nano -y
+clear
+apt install curl -y
+clear
+apt install cat -y
+clear
+sleep 2
+pip install --upgrade pip2
+clear
+pip install --upgrade pip
+clear
+pip install colorama
+clear
+pip install bs4
+clear
+pip install pysnmp
+clear
+pip install wordlist
+clear
+pip install lolcat
+clear
+pip install requests
+clear
+pip install mechanize
+clear
+pip install telethon
+clear
+pip install lxml
+clear
+pip install urllib2
+clear
+pip install art
+clear
+pip install pylast
+clear
+pip install pyfiglet
+clear
