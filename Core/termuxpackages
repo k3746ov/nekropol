@@ -2,7 +2,7 @@
 
 clear
 
-echo
+echo -e "\33[32mTermux packages are loaded\33[0m"
 
 pkg update && pkg upgrade
 clear
