@@ -2,87 +2,86 @@
 
 clear
 
-echo -e "TERMUX PACKAGES ARE LOADED"
+echo -e                 "TERMUX PACKAGES ARE LOADED"
 
 echo
-
 pkg update && pkg upgrade
 clear
 apt update && apt upgrade
 clear
-apt install fish -y 
+pkg install fish -y 
 clear
-apt install tor -y
+pkg install tor -y
 clear
-apt install wget -y
+pkg install wget -y
 clear
-apt install python2 -y
+pkg install python2 -y
 clear
-apt install python -y
+pkg install python -y
 clear
-apt install php -y
+pkg install php -y
 clear
-apt install perl -y
+pkg install perl -y
 clear
-apt install vim -y
+pkg install vim -y
 clera
-apt install w3m -y
+pkg install w3m -y
 clear
-apt install nmap -y
+pkg install nmap -y
 clear
-apt install openssl -y
+pkg install openssl -y
 clear
-apt install openssh -y
+pkg install openssh -y
 clear
-apt install nodejs -y
+pkg install nodejs -y
 clear
-apt install toiler -y
+pkg install toiler -y
 clear
-apt install figlet -y
+pkg install figlet -y
 clear
-apt install cowsay -y
+pkg install cowsay -y
 clear
-apt install proot -y
+pkg install proot -y
 clear
-apt install tsu -y 
+pkg install tsu -y 
 clear
-apt install ruby -y
+pkg install ruby -y
 clear
-apt install tmux -y
+pkg install tmux -y
 clear
-apt install yarn -y
+pkg install yarn -y
 clear
-apt install zsh -y
+pkg install zsh -y
 clear
-apt install bysbox -y
+pkg install bysbox -y
 clear
-apt install mtools -y
+pkg install mtools -y
 clear
-apt install dnsutils -y
+pkg install dnsutils -y
 clear
-apt install hashdeep -y
+pkg install hashdeep -y
 clear
-apt install hexcurse -y
+pkg install hexcurse -y
 clear
-apt install json-c -y
+pkg install json-c -y
 clear
-apt install netcat -y
+pkg install netcat -y
 clear
-apt install ninja -y
+pkg install ninja -y
 clear
-apt install sslscan -y
+pkg install sslscan -y
 clear
-apt install unzip
+pkg install unzip
 clear
-apt install termux-tools -y
+pkg install termux-tools -y
 clear
-apt install weechat -y
+pkg install weechat -y
 clear
-apt install nano -y
+pkg install nano -y
 clear
-apt install curl -y
+pkg install curl -y
 clear
-apt install cat -y
+pkg install cat -y
 clear
 sleep 2
 pip install --upgrade pip2
