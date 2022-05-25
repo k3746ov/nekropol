@@ -19,23 +19,23 @@ read -e -p $'\33[33menter option\33[0m : ' option
 
 #option
 
-if [[ $option == 1 || $option == 01 ]]; then
+if [[ $option == 01 ]]; then
 cd $HOME/nekropol/Core
 bash termuxpackages
 
-elif [[ $option == 2 || $option == 02 ]]; then
+elif [[ $option == 02 ]]; then
 cd $HOME/nekropol/Core
 python3 adder.py
 
-elif [[ $option == 3 || $option == 03 ]]; then
+elif [[ $option == 03 ]]; then
 cd $HOME/nekropol/Core
 bash ngrok
 
-elif [[ $option == 4 || $option ==04 ]]; then
+elif [[ $option == 04 ]]; then
 cd $HOME/nekropol/Core
 bash kali
 
-elif [[ $option == 5 || $option == 05 ]]; then
+elif [[ $option == 05 ]]; then
 exit
 
 else
