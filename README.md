@@ -1,5 +1,5 @@
-![image](https://user-images.githubusercontent.com/58249345/170796475-62bf72e2-3ccd-4f5b-8dd9-6c7d947caac3.png)
 
+<img align="right" alt="Coding" width="400" src="https://www.icegif.com/wp-content/uploads/2021/10/icegif-1645.gif here">
 ---
   | City of the Deads |
   |-------------------|
