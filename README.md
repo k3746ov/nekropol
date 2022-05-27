@@ -1,5 +1,6 @@
 
-<img align="right" alt="Coding" width="400" src="https://www.icegif.com/wp-content/uploads/2021/10/icegif-1645.gif here">
+<img align="right" alt="Coding" width="400" src="https://www.icegif.com/wp-content/uploads/2021/10/icegif-1645.gif">
+
 ---
   | City of the Deads |
   |-------------------|
