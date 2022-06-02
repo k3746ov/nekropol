@@ -5,7 +5,7 @@ clear
 echo -e "\033[31mSİMPLE AND BEATİFUL 😉\033[0m"
 sleep 1.0
 echo
-apt install wget zip unzip
+apt install wget -y
 echo
 
 clear
