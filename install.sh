@@ -3,9 +3,9 @@
 clear 
 echo
 echo
-banner(){
-clear
+
 #######
+
 printf "
 \33[31m
 
@@ -15,7 +15,7 @@ printf "
 |_|\_||___||_|\\_|\\\_/|_|  \_/|___|
                                     
 \33[0m"
-}
+
 
 echo
 
