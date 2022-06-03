@@ -19,7 +19,6 @@ printf "
 
 echo
 
-menu(){
 printf "
   [01]            \33[34mTermux Packages\33[0m
 
@@ -61,7 +60,7 @@ bash kali
 
 elif [[ $option == 05 || $option == 5 ]]; then
 exit
-}
+
 clear
 
 else
