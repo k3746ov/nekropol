@@ -1,18 +1,26 @@
-#!/bin/bash
+#!/bin/bash/sh
 
 clear 
 
 echo
 
+echo
+
+echo
+
+echo
+
+echo
+
 printf "
   [01]            \33[34mTermux Packages\33[0m
-echo
+
   [02]            \33[34mTelegram Scraper\33[0m
-echo
+
   [03]            \33[31mNgrok\33[0m
-echo
+
   [04]            \33[32mKaliNethunter\33[0m
-echo
+
   [05]            \33[32mExit\33[0m
 
 "
