@@ -5,6 +5,7 @@ clear
 printf "\33[32m
            TERMUX PACKAGES ARE LOADED
 \33[0m"
+
 sleep 3
 echo
 pkg update && pkg upgrade
@@ -87,7 +88,7 @@ pkg install cat -y
 clear
 printf "\33[32m
              PIP PACKAGES INSTALL...
-\33[0M
+\33[0M"
 sleep 3
 pip install --upgrade pip2
 clear
