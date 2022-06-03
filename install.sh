@@ -1,17 +1,21 @@
 #!/bin/bash/sh
 
 clear 
+banner(){
+clear
+printf "
+
+ _  _  ___  _  ____  _  ___  _  _   
+| \| || __|| |// o \/ \| o \/ \| |  
+| \\ || _| |  (|   ( o )  _( o ) |_ 
+|_|\_||___||_|\\_|\\\_/|_|  \_/|___|
+                                    
+"
+}
 
 echo
 
-echo
-
-echo
-
-echo
-
-echo
-
+menu(){
 printf "
   [01]            \33[34mTermux Packages\33[0m
 
@@ -24,6 +28,7 @@ printf "
   [05]            \33[32mExit\33[0m
 
 "
+}
 #options
 
 echo
