@@ -13,6 +13,8 @@ printf "
 "
 #options
 
+echo
+
 read -e -p $'\33[33menter option\33[0m : ' option
 
 #options
