@@ -53,6 +53,12 @@ bash kali
 elif [[ $option == 05 || $option == 5 ]]; then
 exit
 
+clear
+
+cd
+
+ls
+
 else
 
 printf " \33[31mERROR\33[0m "
