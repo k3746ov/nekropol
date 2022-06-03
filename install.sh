@@ -5,6 +5,7 @@ echo
 echo
 banner(){
 clear
+#######
 printf "
 \33[31m
 
@@ -31,7 +32,7 @@ printf "
   [05]            \33[32mExit\33[0m
 
 "
-}
+
 #options
 
 echo
@@ -60,12 +61,8 @@ bash kali
 
 elif [[ $option == 05 || $option == 5 ]]; then
 exit
-
+}
 clear
-
-cd
-
-ls
 
 else
 
