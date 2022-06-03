@@ -1,4 +1,4 @@
-#!/bin/bash/sh
+#!/bin/sh
 
 clear 
 echo
