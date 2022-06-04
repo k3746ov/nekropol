@@ -1,6 +1,5 @@
 
-<img align="right" alt="Coding" width="400" src="https://www.icegif.com/wp-content/uploads/2021/10/icegif-1645.gif">
-
+![image](https://github.com/k3746ov/nekropol/core/20220604_211011.jpg)
 ---
   | City of the Deads |
   |-------------------|
