@@ -1,15 +1,13 @@
 
-| City of the Deads|
-|------------------|
+|City Of The Deads|
+|-----------------|
+
+|18.12.20|
+|--------|
 
 ---
 
 ![...](https://github.com/k3746ov/nekropol/blob/main/Core/20220604_211011.jpg)
-
----
-  
-  | DATE: 18.12.2020 |
-  |------------------|
 
 ---
 
@@ -45,13 +43,10 @@
 
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 
-
-<br/>
-
 ---
-
     
 [![Telegram](https://img.shields.io/badge/-TELEGRAM-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/linuxgnunix)
+
 [![Telegram](https://img.shields.io/badge/-TELEGRAM-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/fedreasonekropolll)
 
 ---
@@ -61,8 +56,6 @@
 </p>
 
 ---
-
-
 
 | version | Supported |
 |---------|-----------|
