@@ -1,9 +1,13 @@
+
+| City of the Deads|
+|------------------|
+
+---
+
 ![...](https://github.com/k3746ov/nekropol/blob/main/Core/20220604_211011.jpg)
 
 ---
-  | City of the Deads |
-  |-------------------|
-
+  
   | DATE: 18.12.2020 |
   |------------------|
 
