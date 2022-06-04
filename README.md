@@ -1,5 +1,5 @@
 
-![image](https://github.com/k3746ov/nekropol/core/20220604_211011.jpg)
+![image](https://github.com/k3746ov/nekropol/core/to/20220604_211011.jpg)
 ---
   | City of the Deads |
   |-------------------|
