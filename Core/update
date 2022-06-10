@@ -11,6 +11,6 @@ cd \$Home
 
 rm - rf nekropol
 
-pkg autoremove l 
+pkg autoremove
 
 restart
