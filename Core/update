@@ -1,1 +1,16 @@
 #!/bin/bash
+clear
+
+pkg update && pkg upgrade
+
+echo
+
+clear
+
+cd \$Home
+
+rm - rf nekropol
+
+pkg autoremove l 
+
+restart
