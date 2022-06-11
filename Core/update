@@ -1,6 +1,10 @@
 #!/bin/bash
 clear
 
+print "
+             \33[33mUpdate Nekropol ⚒\33[0m
+"
+
 cd $HOME
 
 rm -rf nekropol
@@ -12,7 +16,5 @@ git clone https://github.com/k3746ov/nekropol
 cd $HOME/nekropol
 
 chmod 777 install.sh
-
-clear
 
 bash install.sh
