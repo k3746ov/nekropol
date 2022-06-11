@@ -32,6 +32,8 @@ printf "
 
   [05]            \33[32mExit\33[0m
 
+  [06]            \33[32mUpdate\33[0m
+
 "
 
 #options
@@ -62,6 +64,8 @@ bash kali
 
 elif [[ $option == 05 || $option == 5 ]]; then
 exit
+
+elif [[ $option == 06 || $option == 6 ]]; then
 
 clear
 
