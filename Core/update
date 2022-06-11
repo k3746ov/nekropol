@@ -5,11 +5,9 @@ cd $HOME
 
 rm -rf nekropol
 
-pkg autoremove
+pkg autoclean
 
 git clone https://github.com/k3746ov/nekropol
-
-cd
 
 cd $HOME/nekropol
 
