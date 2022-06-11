@@ -1,7 +1,9 @@
 #!/bin/bash
 clear
 
-printf " \33[33mUpdate Nekropol.v3.1 ⚒\33[0m"
+printf " 
+        \33[32mUpdate Nekropol.v3.1 ⚒\33[0m
+"
 
 echo 
 
