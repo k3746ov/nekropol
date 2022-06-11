@@ -8,3 +8,11 @@ rm -rf nekropol
 pkg autoremove
 
 git clone https://github.com/k3746ov/nekropol
+
+cd $HOME/nekropol
+
+chmod 777 install.sh
+
+clear
+
+bash install.sh
