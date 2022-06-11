@@ -66,6 +66,8 @@ elif [[ $option == 05 || $option == 5 ]]; then
 exit
 
 elif [[ $option == 06 || $option == 6 ]]; then
+cd $HOME/nekropol/Core
+bash update
 
 clear
 
