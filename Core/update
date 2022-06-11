@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+
+cd $HOME
+
+rm -rf nekropol
+
+pkg autoremove
+
+git clone https://github.com/k3746ov/nekropol
