@@ -14,11 +14,14 @@ printf "
 /    / ) _)  )  (  )   /(  O )) __/(  O )/ (_/\
 \_)__)(____)(__\_)(__\_) \__/(__)   \__/ \____/
 
+               City Of The Deads
+
 \33[0m"
 
 echo
 
 printf "
+
   [01]            \33[34mTermux Packages\33[0m
 
   [02]            \33[34mTelegram Scraper\33[0m
