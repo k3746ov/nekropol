@@ -1,9 +1,7 @@
 #!/bin/bash
 clear
 
-print "
-             \33[33mUpdate Nekropol ⚒\33[0m
-"
+print " \33[33mUpdate Nekropol ⚒\33[0m"
 
 cd $HOME
 
