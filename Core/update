@@ -1,0 +1,39 @@
+#!/bin/bash
+clear
+
+if wget --spider https://raw.githubusercontent.com/k3746ov/nekropol/master/update.v3.1>/dev/null; then
+
+echo -en "\e[32mEnter your choice [\e[93my/\e[93mt\e[32m]\e[96m: \e[0m"
+read choice
+if [[ $choice == "y" ]]; then
+
+clear
+cd $HOME
+if [[ -d nekropol ]]; then
+rm -rf nekropol
+else
+printf ""
+fi
+echo
+while git clone https://github.com/k3746ov/nekropol 2> /dev/null; do
+echo
+done
+echo
+
+cd $HOME/nekropol
+bash setup
+elif [[ $choice = "t" ]]; then
+
+clear
+echo
+else
+echo
+clear
+
+cd $HOME/nekropol
+bash install.sh
+fi
+else
+clear
+echo
+fi
