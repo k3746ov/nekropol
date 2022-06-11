@@ -1,7 +1,11 @@
 #!/bin/bash
 clear
 
-print " \33[33mUpdate Nekropol ⚒\33[0m"
+print " \33[33mUpdate Nekropol.v3.1 ⚒\33[0m"
+
+echo 
+
+sleep 3.0
 
 cd $HOME
 
