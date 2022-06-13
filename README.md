@@ -42,6 +42,7 @@
 ---
 ![VisitorCount](https://profile-counter.glitch.me/k3746ov/count.svg)
 ---
-|nekropol| version|
-|--------|--------|
-| v-     | 3.1
+
+|android |nekropol|version|
+|--------|--------|-------|
+| 10.0+  |   3.1  |  ✅   |
