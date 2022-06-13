@@ -60,6 +60,8 @@ pkg install bysbox -y
 clear
 pkg install mtools -y
 clear
+pkg install mc -y
+clear
 pkg install dnsutils -y
 clear
 pkg install hashdeep -y
