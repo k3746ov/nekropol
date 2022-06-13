@@ -106,6 +106,8 @@ pip install wordlist
 clear
 pip install lolcat
 clear
+gem install lolcat
+clear
 pip install requests
 clear
 pip install mechanize
