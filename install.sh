@@ -16,7 +16,7 @@ printf "
 
                City Of The Deads
 
-\33[0m" |lolcat -a -d 7
+\33[0m" |lolcat 
 
 echo
 
