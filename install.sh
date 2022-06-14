@@ -5,7 +5,7 @@ echo
 echo
 
 #######
-(){
+
 printf "
 \33[31m
 
@@ -17,7 +17,7 @@ printf "
                City Of The Deads
 
 \33[0m" 
-}
+
 echo
 menu(){
 printf "
