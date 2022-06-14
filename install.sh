@@ -5,7 +5,7 @@ echo
 echo
 
 #######
-
+(){
 printf "
 \33[31m
 
@@ -16,10 +16,10 @@ printf "
 
                City Of The Deads
 
-\33[0m" |lolcat
-
+\33[0m" 
+}
 echo
-
+menu(){
 printf "
 
   [01]            \33[34mTermux Packages\33[0m
@@ -35,7 +35,7 @@ printf "
   [06]            \33[32mUpdate\33[0m
 
 "
-
+}
 #options
 
 echo
