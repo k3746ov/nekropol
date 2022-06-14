@@ -1,12 +1,14 @@
 #!/bin/bash
 
 clear
-
+(){
 printf "\33[32m
            TERMUX PACKAGES ARE LOADED
 \33[0m"
 
 sleep 3
+}
+
 echo
 pkg update && pkg upgrade
 clear
@@ -17,6 +19,8 @@ clear
 pkg install root-repo -y
 clear
 pkg install x11-repo -y
+clear
+pkg installbunstable-repo
 clear
 pkg install fish -y 
 clear
@@ -94,12 +98,14 @@ pkg install curl -y
 clear
 pkg install cat -y
 clear
-
+(){
 printf "\33[32m
              PIP PACKAGES INSTALL...
 \33[0M"
 
 sleep 3
+}
+
 pip install --upgrade pip2
 clear
 pip install --upgrade pip
