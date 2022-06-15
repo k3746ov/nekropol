@@ -16,12 +16,6 @@ apt update && apt upgrade
 clear
 ap install termux-api -y
 clear
-pkg install root-repo -y
-clear
-pkg install x11-repo -y
-clear
-pkg installbunstable-repo
-clear
 pkg install fish -y 
 clear
 pkg install tor -y
