@@ -41,7 +41,7 @@ def ospath():
             z=0
         api_id= input(b+' Enter api_id_{}: '.format(z+1))
         api_hash= input('Enter api_hash_{}: '.format(z+1))
-        with open('multi_log.txt', 'a') as f:
+        with open('log.txt', 'a') as f:
             f.write(api_id+'\n'+api_hash+'\n')
         client = TelegramClient("config.data{}".format(z), api_id, api_hash)
         client.start()
