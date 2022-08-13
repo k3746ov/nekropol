@@ -2,6 +2,8 @@
 
 clear
 
+echo
+
 printf "\33[32m
 
 
@@ -16,9 +18,8 @@ printf "\33[32m
 \33[0m"
 
 sleep 3
-
-
 echo
+
 pkg update && pkg upgrade
 clear
 apt update && apt upgrade
@@ -102,8 +103,17 @@ clear
 pkg install cat -y
 clear
 
+echo
+
 printf "
 \33[32m
+
+▀█▀ █▀▀ █▀█ █▀▄▀█ █░█ ▀▄▀
+░█░ ██▄ █▀▄ █░▀░█ █▄█ █░█
+
+█▀█ ▄▀█ █▀▀ █▄▀ ▄▀█ █▀▀ █▀▀ █▀
+█▀▀ █▀█ █▄▄ █░█ █▀█ █▄█ ██▄ ▄█
+
 
              PIP PACKAGES INSTALL...
 
@@ -112,9 +122,11 @@ printf "
 
 sleep 3
 
-pip install --upgrade pip2
-clear
+echo
+
 pip install --upgrade pip
+clear
+pip install --upgrade pip2
 clear
 pip install colorama
 clear
