@@ -102,9 +102,13 @@ clear
 pkg install cat -y
 clear
 
-printf "\33[32m
+printf "
+\33[32m
+
              PIP PACKAGES INSTALL...
-\33[0M"
+
+\33[0M
+"
 
 sleep 3
 
@@ -140,5 +144,5 @@ pip install pyfiglet
 clear
 echo
 cd
-cd nekropol
-bash install.sh
+cd NEKROPOL
+bash install
