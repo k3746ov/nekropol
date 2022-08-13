@@ -32,8 +32,6 @@ printf "
 
   [05]            \33[32mExit\33[0m
 
-  [06]            \33[32mUpdate\33[0m
-
 "
 
 #options
@@ -47,27 +45,23 @@ read -e -p $'\33[33menter option\33[0m : ' option
 #options
 
 if [[ $option == 01 || $option == 1 ]]; then
-cd $HOME/nekropol/Core
+cd $HOME/NEKROPOL/Core
 bash termuxpackages
 
 elif [[ $option == 02 || $option == 2 ]]; then
-cd $HOME/nekropol/Core
+cd $HOME/NEKROPOL/Core
 python3 adder.py
 
 elif [[ $option == 03 || $option == 3 ]]; then
-cd $HOME/nekropol/Core
+cd $HOME/NEKROPOL/Core
 bash ngrok
 
 elif [[ $option == 04 || $option == 4 ]]; then
-cd $HOME/nekropol/Core
+cd $HOME/NEKROPOL/Core
 bash kali
 
 elif [[ $option == 05 || $option == 5 ]]; then
 exit
-
-elif [[ $option == 06 || $option == 6 ]]; then
-cd $HOME/nekropol/Core
-bash update
 
 clear
 
