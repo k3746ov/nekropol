@@ -14,7 +14,12 @@ b="\u001b[34;1m"
 m="\u001b[35;1m"
 c="\u001b[36;1m"
 clear = lambda:os.system('clear')
-inf = ()
+inf = (
+╔══╗───────────────╔══╗
+╚╗╔╩╦╗╔═╦═╦╦╦═╗╔══╗║══╬═╦╦╦═╗╔═╦═╦╦╗
+─║║╩╣╚╣╩╣╬║╔╣╬╚╣║║║╠══║═╣╔╣╬╚╣╬║╩╣╔╝
+─╚╩═╩═╩═╬╗╠╝╚══╩╩╩╝╚══╩═╩╝╚══╣╔╩═╩╝
+────────╚═╝──────────────────╚╝)
 el=0
 def Sleep(timE):
     try:
@@ -30,7 +35,7 @@ def info():
 clear()
 info()
 def ospath():
-    o=int(input(b+" How many telegram accounts do you have ? : "))
+    o=int(input(r+" How many telegram accounts do you have ? : "))
     for po in range(o):
         if os.path.isfile('log.txt'):
             with open('log.txt', 'r') as f:
@@ -95,7 +100,7 @@ for s in range(v):
     client = TelegramClient("IdSession{}".format(x), api_id, api_hash)
     client.start()
     name=utils.get_display_name(client.get_me())
-    print(a+" \n\n  ❤Successfully connected as {}❤\n\n".format(name))
+    print(a+" \n\n  Successfull {} \n\n".format(name))
     t+=2
     lines=[]
     chats = []
