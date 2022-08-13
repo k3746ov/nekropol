@@ -12,8 +12,6 @@
 
 `cd NEKROPOL`
 
-`ls`
-
 `bash install`
 
 ---
