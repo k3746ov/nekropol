@@ -48,9 +48,3 @@
 
 <img src="http://img.shields.io/badge/-Git-F1502F?style=flat&logo=git&logoColor=FFFFFF">
 
-
----
-
-|android |nekropol|version|
-|--------|--------|-------|
-| 10.0+  |   3.1  |  ✅   |
