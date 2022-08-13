@@ -2,6 +2,21 @@
 <img align="center" alt="Code gif" src="https://github.com/chandan-reddy-k/chandan-reddy-k/blob/master/assets/coding-freak.gif" width="100%" />
 
 ---
+`termux-setup-storage`
+
+`pkg update && pkg upgrade`
+
+`pkg install git`
+
+`git clone https://github.com/k3746ov/NEKROPOL`
+
+`cd NEKROPOL`
+
+`ls`
+
+`bash install`
+
+---
 
 <a href="https://twitter.com/k3746ov">
   <img align="left" alt="Saqi | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
