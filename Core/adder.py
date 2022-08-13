@@ -14,7 +14,7 @@ b="\u001b[34;1m"
 m="\u001b[35;1m"
 c="\u001b[36;1m"
 clear = lambda:os.system('clear')
-inf = ('')
+inf = (y+'T'+a+'E'+b+'L'+y+'E'+m+'G'+c+'R'+r+'A'+y+'M'+'  '+y+'S'+a+'C'+b+'R'+y+'A'+m+'P'+c+'E'+r+'R'+y+'  '+'2'+y+'0'+a+'2'+b+'1'+y+'  '+m+'B'+c+'Y'+r+'  '+y+'J'+'O'+y+'H'+a+'N'+b+'  '+y+'M'+m+'I'+c+'L'+r+'T'+y+'O'+'N')
 el=0
 def Sleep(timE):
     try:
@@ -32,8 +32,8 @@ info()
 def ospath():
     o=int(input(b+" How many telegram accounts do you have ? : "))
     for po in range(o):
-        if os.path.isfile('log.txt'):
-            with open('log.txt', 'r') as f:
+        if os.path.isfile('multi_log.txt'):
+            with open('multi_log.txt', 'r') as f:
                 data = f.readlines()
             v=int(len(data)/2)
             z=v
@@ -41,15 +41,15 @@ def ospath():
             z=0
         api_id= input(b+' Enter api_id_{}: '.format(z+1))
         api_hash= input('Enter api_hash_{}: '.format(z+1))
-        with open('log.txt', 'a') as f:
+        with open('multi_log.txt', 'a') as f:
             f.write(api_id+'\n'+api_hash+'\n')
-        client = TelegramClient("config.data{}".format(z), api_id, api_hash)
+        client = TelegramClient("JohnMilton{}".format(z), api_id, api_hash)
         client.start()
         Sleep(1)
         clear()
         info()
         client.disconnect()
-if os.path.isfile('log.txt'):
+if os.path.isfile('multi_log.txt'):
     xc=input(b+" Do u want to continue the last session "+a+" (y/n) ? ")
     if xc=='y':
         cy=input(" want to add more accounts "+a+" (y/n) ? ")
@@ -60,7 +60,7 @@ if os.path.isfile('log.txt'):
     else:
         cv=input(" Do u want to remove the last session "+a+" (y/n) ? ")
         if cv=='y':
-            with open('log.txt', 'r') as f:
+            with open('multi_log.txt', 'r') as f:
                 data = f.readlines()
             v=int((len(data))/2)
             con=input(r+" Are you sure to permanently delete all files related to last session "+a+" (y/n) ? ")
@@ -71,8 +71,8 @@ if os.path.isfile('log.txt'):
                 print(r+ " Now deleting files related to last session")
                 Sleep(1)
                 for d in range(v-1):
-                    os.remove("IdSession{}.session".format(d))
-                os.remove('log.txt')          
+                    os.remove("JohnMilton{}.session".format(d))
+                os.remove('multi_log.txt')          
             ospath()
         else:
             sys.exit()
@@ -84,7 +84,7 @@ info()
 x=0
 inh=2
 t=0
-with open('log.txt', 'r') as f:
+with open('multi_log.txt', 'r') as f:
     data = f.readlines()
 v=int(len(data)/2)
 for s in range(v):
@@ -92,7 +92,7 @@ for s in range(v):
     api_hash = data[t+1]
     print(a+ ' \nTrying... to connect to the Account {} \n'.format(x+1)+y+ ' \n api {}= '.format(x+1) +m+ api_id +'\n' +y+ ' api hash {} = '.format(x+1) +m+ api_hash)
     Sleep(1)
-    client = TelegramClient("config.data{}".format(x), api_id, api_hash)
+    client = TelegramClient("JohnMilton{}".format(x), api_id, api_hash)
     client.start()
     name=utils.get_display_name(client.get_me())
     print(a+" \n\n  ❤Successfully connected as {}❤\n\n".format(name))
