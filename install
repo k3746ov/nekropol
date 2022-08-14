@@ -53,9 +53,7 @@ printf "
 ╰╯╱╰━┻━━━┻╯╰━┻╯╰━┻━━━┻╯╱╱╰━━━┻━━━╯
 
 \33[0m" 
-
 echo
-
 printf "
 
 \33[34m[01]\33[0m \33[36mTermux Packages\33[0m
@@ -71,13 +69,8 @@ printf "
 \33[34m[06]\33[0m \33[36mExit\33[0m
 
 "
-
 #options
-
 echo
-
-echo
-
 read -e -p $'\33[33menter option\33[0m : ' option
 
 #options
