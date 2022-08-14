@@ -4,7 +4,7 @@ clear
 
 echo
 
-printf "\33[32m
+printf "\33[31m
 
 
 ▀█▀ █▀▀ █▀█ █▀▄▀█ █░█ ▀▄▀
@@ -106,7 +106,7 @@ clear
 echo
 
 printf "
-\33[32m
+\33[31m
 
 ▀█▀ █▀▀ █▀█ █▀▄▀█ █░█ ▀▄▀
 ░█░ ██▄ █▀▄ █░▀░█ █▄█ █░█
@@ -114,14 +114,12 @@ printf "
 █▀█ ▄▀█ █▀▀ █▄▀ ▄▀█ █▀▀ █▀▀ █▀
 █▀▀ █▀█ █▄▄ █░█ █▀█ █▄█ ██▄ ▄█
 
-
              PIP PACKAGES INSTALL...
 
 \33[0M
 "
 
 sleep 3
-
 echo
 
 pip install --upgrade pip
