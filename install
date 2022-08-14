@@ -84,7 +84,7 @@ cd $HOME/NEKROPOL/Core
 bash kali
 
 elif [[ $option == 05 || $option == 5 ]]; then
-cd $HOME/NEKROPOL/CORE/Termux-heroku-cli
+cd $HOME/NEKROPOL/Core/Termux-heroku-cli
 bash install.sh
 
 elif [[ $option == 06 || $option == 6 ]]; then
