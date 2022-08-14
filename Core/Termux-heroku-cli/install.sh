@@ -1,4 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/bash
+clear
+printf " 
+\33[31m
+
+█░█ █▀▀ █▀█ █▀█ █▀▀ █░█ ▄▄ █▀▀ █░░ █
+█▀█ ██▄ █▀▄ █▄█ █▄▄ █▄█ ░░ █▄▄ █▄▄ █
+
+\33[0m
+
 pkg install wget tar gzip -y
 
 wget http://cli-assets.heroku.com/heroku-linux-arm.tar.gz -O heroku.tar.gz
