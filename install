@@ -71,7 +71,9 @@ printf "
 
   [04]            \33[32mKaliNethunter\33[0m
 
-  [05]            \33[32mExit\33[0m
+  [05]            \33[32mHeroku\33[0m
+
+  [06]            \33[32mExit\33[0m
 
 "
 
@@ -102,6 +104,10 @@ cd $HOME/NEKROPOL/Core
 bash kali
 
 elif [[ $option == 05 || $option == 5 ]]; then
+cd $HOME/NEKROPOL/CORE/Termux-heroku-cli
+bash install.sh
+
+elif [[ $option == 06 || $option == 6 ]]; then
 exit
 
 clear
