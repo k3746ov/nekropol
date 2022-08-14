@@ -59,17 +59,17 @@ echo
 
 printf "
 
-  [01]            \33[34mTermux Packages\33[0m
+\33[34m[01]\33[0m \33[36mTermux Packages\33[0m
 
-  [02]            \33[34mTelegram Scraper\33[0m
+\33[34m[02]\33[0m \33[36mTelegram Scraper\33[0m
 
-  [03]            \33[31mNgrok\33[0m
+\33[34m[03]\33[0m \33[36mNgrok\33[0m
 
-  [04]            \33[32mKaliNethunter\33[0m
+\33[34m[04]\33[0m \33[36mKaliNethunter\33[0m
 
-  [05]            \33[32mHeroku\33[0m
+\33[34m[05]\33[0m \33[36mHeroku\33[0m
 
-  [06]            \33[32mExit\33[0m
+\33[34m[06]\33[0m \33[36mExit\33[0m
 
 "
 
