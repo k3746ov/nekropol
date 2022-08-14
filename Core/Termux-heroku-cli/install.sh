@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-clear
+
 printf " 
 \33[31m
 
