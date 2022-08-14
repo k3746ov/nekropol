@@ -1,11 +1,6 @@
-#!/bin/bash sh
-
-clear 
-echo
-echo
-
-#######
-
+#!/bin/bash
+clear
+---
 printf "
 \33[31m
 
@@ -58,6 +53,7 @@ printf "
 ╰╯╱╰━┻━━━┻╯╰━┻╯╰━┻━━━┻╯╱╱╰━━━┻━━━╯
 
 \33[0m" 
+---
 
 echo
 
