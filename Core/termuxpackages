@@ -136,9 +136,9 @@ pip install pysnmp
 clear
 pip install wordlist
 clear
-pip install lolcat
+pip install lolcat 
 clear
-gem install lolcat
+gem install lolcat -y
 clear
 pip install requests
 clear
