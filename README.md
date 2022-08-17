@@ -2,6 +2,8 @@
 <img align="center" alt="Code gif" src="https://github.com/chandan-reddy-k/chandan-reddy-k/blob/master/assets/coding-freak.gif" width="100%" />
 
 ---
+[NEKROPOL WIKI](https://github.com/k3746ov/NEKROPOL.wiki.git)
+---
 `termux-setup-storage`
 
 `pkg install git`
