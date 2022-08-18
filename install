@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+banner () {
 printf "
 \33[31m
 
@@ -52,6 +53,9 @@ printf "
 ╰╯╱╰━┻━━━┻╯╰━┻╯╰━┻━━━┻╯╱╱╰━━━┻━━━╯
 
 \33[0m" 
+
+}
+
 echo
 printf "
 \33[34m[01]\33[0m \33[36mTermux Packages\33[0m
