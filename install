@@ -1,9 +1,5 @@
 #!/bin/bash
 clear
-
-banner () {
-
-
 printf "
 \33[31m
 
@@ -71,10 +67,6 @@ printf "
 
 \33[34m[06]\33[0m \33[36mExit\33[0m
 "
-
-}
-
-
 #options
 read -e -p $'\33[33menter option\33[0m : ' option
 #options
