@@ -154,5 +154,5 @@ pip install pyfiglet
 clear
 echo
 cd
-cd NEKROPOL
+cd nekropol
 bash install
