@@ -46,5 +46,7 @@ printf "
 printf "\33[32m
        𝖂𝖊𝖑𝖈𝖔𝖒𝖊 𝕿𝖔 𝕿𝖍𝖊 𝕹𝕰𝕶𝕽𝕺𝕻𝕺𝕴 \33[0m"
 
+
+
 PROMPT_DIRTRIM=2
 PS1='\d\@\n\u@\H:# '
