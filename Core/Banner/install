@@ -1,8 +1,8 @@
-#! /bin/bash
+#!/bin/bash
 
 clear
 
 # Edit bash.bashrc File
 
-cd $HOME && cd nekropol && cd Banner
+cd $HOME && cd nekropol && cd Core && cd Banner
 cat " banner "  >> /data/data/com.termux/files/usr/etc/bash.bashrc
