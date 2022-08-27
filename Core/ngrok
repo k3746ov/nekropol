@@ -69,5 +69,5 @@ sleep 5.0
 clear
 echo
 cd
-cd NEKROPOL
+cd nekropol
 bash install
