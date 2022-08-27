@@ -9,4 +9,4 @@ clear
 # Edit Bash.bashrc File
 
 cd $HOME && cd NEKROPOL && cd Banner
-cat " nekropolbanner "  >> /usr/bin/bash.bashrc
+cat " nekropolbanner "  >> /usr/etc/bash.bashrc
