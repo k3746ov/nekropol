@@ -64,7 +64,9 @@ printf "
 
 \33[34m[05]\33[0m \33[36mHeroku\33[0m
 
-\33[34m[06]\33[0m \33[36mExit\33[0m
+\33[34m[06]\33[0m \33[36mTermuxBanner\33[0m
+
+\33[34m[07]\33[0m \33[36mExit\33[0m
 "
 #options
 read -e -p $'\33[33menter option\33[0m : ' option
@@ -90,6 +92,10 @@ cd $HOME/nekropol/Core/Termux-heroku-cli
 bash install
 
 elif [[ $option == 06 || $option == 6 ]]; then
+cd $HOME/nekropol/Core/Banner
+bash install
+
+elif [[ $option == 07 || $option == 7 ]]; then
 exit
 
 clear
