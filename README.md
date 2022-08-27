@@ -13,6 +13,16 @@
 
 `bash install`
 
+
+| List         |
+|--------------|
+#1 Termux Packages
+#2 Telegram Scraper
+#3 Kali Nethunter
+#4 Ngrok
+#5 Heroku
+#6 Termux Banner
+
 ---
 
 <a href="https://twitter.com/k3746ov">
