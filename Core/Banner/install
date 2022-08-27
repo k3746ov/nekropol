@@ -1,5 +1,5 @@
 #!/bin/bash
-
+pkg update && apt update && pkg upgrade && apt upgrade
 clear
 
 # Edit bash.bashrc File
