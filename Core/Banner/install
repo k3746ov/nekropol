@@ -6,4 +6,5 @@ clear
 
 cd $HOME && cd nekropol && cd Core && cd Banner
 cat "banner.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-exit
+$exit
+$logout
