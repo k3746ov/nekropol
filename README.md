@@ -7,9 +7,9 @@
 
 `pkg install git`
 
-`git clone https://github.com/k3746ov/NEKROPOL`
+`git clone https://github.com/k3746ov/nekropol`
 
-`cd NEKROPOL`
+`cd nekropol`
 
 `bash install`
 
