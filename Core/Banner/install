@@ -5,4 +5,4 @@ clear
 # Edit bash.bashrc File
 
 cd $HOME && cd nekropol && cd Core && cd Banner
-cat " banner "  >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cat "banner.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
