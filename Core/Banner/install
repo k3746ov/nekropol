@@ -3,10 +3,25 @@ clear
 
 pkg update && apt update && pkg upgrade && apt upgrade
 
+termux-reload-settings
+
 clear
 
 cd $HOME
+
+/data/data/com.termux/files/usr/etc/
+
+rm - rf bash.bashrc
+
+touch bash.bashrc
+
+cd $HOME
+
 cd NEKROPOL
-cd Core
+
+cd Core 
+
 cd Banner
-cat "nekropolbanner" >> /usr/bin/bash.bashrc
+
+cat "nekropolbanner" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+
