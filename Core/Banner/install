@@ -1,0 +1,12 @@
+#!/bin/bash
+clear
+
+pkg update && apt update && pkg upgrade && apt upgrade
+
+clear
+
+cd $HOME
+cd NEKROPOL
+cd Core
+cd Banner
+cat "nekropolbanner" >> /usr/bin/bash.bashrc
