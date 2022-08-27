@@ -70,24 +70,24 @@ printf "
 read -e -p $'\33[33menter option\33[0m : ' option
 #options
 if [[ $option == 01 || $option == 1 ]]; then
-cd $HOME/NEKROPOL/Core
+cd $HOME/nekropol/Core
 bash termuxpackages
 
 elif [[ $option == 02 || $option == 2 ]]; then
-cd $HOME/NEKROPOL/Core
+cd $HOME/nekropol/Core
 python3 adder.py
 
 elif [[ $option == 03 || $option == 3 ]]; then
-cd $HOME/NEKROPOL/Core
+cd $HOME/nekropol/Core
 bash ngrok
 
 elif [[ $option == 04 || $option == 4 ]]; then
-cd $HOME/NEKROPOL/Core
+cd $HOME/nekropol/Core
 bash kali
 
 elif [[ $option == 05 || $option == 5 ]]; then
-cd $HOME/NEKROPOL/Core/Termux-heroku-cli
-bash install.sh
+cd $HOME/nekropol/Core/Termux-heroku-cli
+bash install
 
 elif [[ $option == 06 || $option == 6 ]]; then
 exit
