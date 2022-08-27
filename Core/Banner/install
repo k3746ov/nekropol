@@ -5,6 +5,8 @@ clear
 # Edit bash.bashrc File
 
 cd $HOME && cd nekropol && cd Core && cd Banner
+rm -rf /data/data/com.termux/files/usr/etc/motd
 cat "banner.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+
 $exit
 $logout
