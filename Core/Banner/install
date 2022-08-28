@@ -1,10 +1,15 @@
 #!/bin/bash
+
 pkg update && apt update && pkg upgrade && apt upgrade
+
 clear
 
 # Edit bash.bashrc File
 
-rm -rf /data/data/com.termux/files/usr/etc/motd
+
+clear /data/data/com.termux/files/usr/etc/motd
+
+echo
 
 cd $HOME && cd nekropol && cd Core && cd Banner
 
