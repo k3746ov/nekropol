@@ -1,14 +1,13 @@
-#   exec command immediately.
-# - Do not save to history commands starting
-#   with space.
-# - Do not save duplicated commands.
+GNU nano 6.3                  bash
+#!/bin/bash
+
 shopt -s histappend
 shopt -s histverify
 export HISTCONTROL=ignoreboth
 
 # Default command line prompt.
 PROMPT_DIRTRIM=2
-PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '
+PS1="\[\e[0;17m┏━━🕖\e[m\e[0;31m\@\e[m\n\e[0;17m┣\e[m\e[0;17m━━>
 
 # Handles nonexistent commands.
 # If user has entered command which invokes non-available
