@@ -1,5 +1,6 @@
 #!/bin/bash/
 clear
+
 pkg update && pkg upgrade 
 
 rm -rf /data/data/com.termux/files/home/nekropol
@@ -8,6 +9,3 @@ rm -rf /data/data/com.termux/files/usr/nekropol
 
 git clone https://github.com/k3746ov/nekropol
 
-clear
-
-/data/data/com.termux/files/home/nekropol/install
