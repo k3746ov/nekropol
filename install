@@ -74,31 +74,31 @@ printf "
 read -e -p $'\33[33menter option\33[0m : ' option
 #options
 if [[ $option == 01 || $option == 1 ]]; then
-cd $HOME/nekropol/Core
+cd $HOME/nekropol/core
 bash termuxpackages
 
 elif [[ $option == 02 || $option == 2 ]]; then
-cd $HOME/nekropol/Core
-python3 adder.py
+cd $HOME/nekropol/core
+python3 adder
 
 elif [[ $option == 03 || $option == 3 ]]; then
-cd $HOME/nekropol/Core
+cd $HOME/nekropol/core
 bash ngrok
 
 elif [[ $option == 04 || $option == 4 ]]; then
-cd $HOME/nekropol/Core
+cd $HOME/nekropol/core
 bash kali
 
 elif [[ $option == 05 || $option == 5 ]]; then
-cd $HOME/nekropol/Core/Termux-heroku-cli
+cd $HOME/nekropol/core
 bash install
 
 elif [[ $option == 06 || $option == 6 ]]; then
-cd $HOME/nekropol/Core/Banner
-bash install
+cd $HOME/nekropol/core
+bash b_install
 
 elif [[ $option == 07 || $option == 7 ]]; then
-cd $HOME/nekropol/Core
+cd $HOME/nekropol/core
 bash update
 
 elif [[ $option == 08 || $option == 8 ]]; then
