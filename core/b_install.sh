@@ -8,7 +8,7 @@ clear
 
 echo
 
-cd $HOME && cd nekropol && cd Core && cd Banner
+cd $HOME && cd nekropol && cd core
 
 cat "bash_bashrc.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
