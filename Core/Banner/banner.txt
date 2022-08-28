@@ -49,4 +49,4 @@ printf "\33[32m
 
 
 PROMPT_DIRTRIM=2
-PS1='\d\@\n\u@\H:# '
+PS1='\e[0;33m\d\@\e[m\n\e[0;36m\u@\H\e[m \e[0;32m $\e[m '
