@@ -98,7 +98,7 @@ cd $HOME/nekropol/Core/Banner
 bash install
 
 elif [[ $option == 07 || $option == 7 ]]; then
-cd $HOME/Core
+cd $HOME/nekropol/Core
 bash update
 
 elif [[ $option == 08 || $option == 8 ]]; then
