@@ -11,7 +11,7 @@
 
 `cd nekropol`
 
-`bash install`
+`bash install.sh`
 
 
 | List         |
