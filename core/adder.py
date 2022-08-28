@@ -303,6 +303,3 @@ for s in range(v):
                 q += 1
                 Sleep(1)
                 continue
-    
-    
-    
