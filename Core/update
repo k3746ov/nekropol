@@ -1,0 +1,13 @@
+#!/bin/bash/sh
+clear
+
+rm -rf /data/data/com.termux/files/usr/nekropol
+
+rm -rf /data/data/com.termux/files/home/nekropol
+
+git clone https://github.com/k3746ov/nekropol
+clear
+cd $HOME
+cd nekropol
+bash install
+
