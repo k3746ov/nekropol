@@ -98,8 +98,8 @@ cd $HOME/nekropol/core
 bash b_install.sh
 
 elif [[ $option == 07 || $option == 7 ]]; then
-cd $HOME/nekropol/core
-bash update.sh
+cd $HOME/nekropol/
+bash install.sh
 
 elif [[ $option == 08 || $option == 8 ]]; then
 exit
