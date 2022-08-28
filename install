@@ -75,31 +75,31 @@ read -e -p $'\33[33menter option\33[0m : ' option
 #options
 if [[ $option == 01 || $option == 1 ]]; then
 cd $HOME/nekropol/core
-bash termuxpackages
+bash termuxpackages.sh
 
 elif [[ $option == 02 || $option == 2 ]]; then
 cd $HOME/nekropol/core
-python3 adder
+python3 adder.py
 
 elif [[ $option == 03 || $option == 3 ]]; then
 cd $HOME/nekropol/core
-bash ngrok
+bash ngrok.sh
 
 elif [[ $option == 04 || $option == 4 ]]; then
 cd $HOME/nekropol/core
-bash kali
+bash kali.sh
 
 elif [[ $option == 05 || $option == 5 ]]; then
 cd $HOME/nekropol/core
-bash heroku
+bash heroku.sh
 
 elif [[ $option == 06 || $option == 6 ]]; then
 cd $HOME/nekropol/core
-bash b_install
+bash b_install.sh
 
 elif [[ $option == 07 || $option == 7 ]]; then
 cd $HOME/nekropol/core
-bash update
+bash update.sh
 
 elif [[ $option == 08 || $option == 8 ]]; then
 exit
