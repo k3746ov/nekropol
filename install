@@ -66,7 +66,9 @@ printf "
 
 \33[34m[06]\33[0m \33[36mTermuxBanner\33[0m
 
-\33[34m[07]\33[0m \33[36mExit\33[0m
+\33[34m[07]\33[0m \33[36Update\33[0m
+
+\33[34m[08]\33[0m \33[36mExit\33[0m
 "
 #options
 read -e -p $'\33[33menter option\33[0m : ' option
@@ -96,6 +98,10 @@ cd $HOME/nekropol/Core/Banner
 bash install
 
 elif [[ $option == 07 || $option == 7 ]]; then
+cd $HOME/Core
+bash update
+
+elif [[ $option == 08 || $option == 8 ]]; then
 exit
 
 clear
