@@ -10,5 +10,4 @@ git clone https://github.com/k3746ov/nekropol
 
 clear
 
-cd $HOME/nekropol && bash install
-
+/data/data/com.termux/files/home/nekropol/install
