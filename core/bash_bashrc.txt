@@ -1,18 +1,6 @@
 #!/bin/bash
-
-shopt -s histappend
-shopt -s histverify
-export HISTCONTROL=ignoreboth
-
+clear
 # Default command line prompt.
 PROMPT_DIRTRIM=2
 PS1="\[\e[0;17m┏━━🕖\e[m\e[0;31m\@\e[m\n\e[0;17m┣\e[m\e[0;17m━━━⚰\e[m\e[0;31m\d\e[m\n\e[0;17m┗━━━\e[m\e[0;31m\u@\H: \w ] $ "
 
-# Handles nonexistent commands.
-# If user has entered command which invokes non-available
-# utility, command-not-found will give a package suggestions.
-if [ -x /data/data/com.termux/files/usr/libexec/termux/command->
-        command_not_found_handle() {
-                /data/data/com.termux/files/usr/libexec/termux/>
-        }
-fi
