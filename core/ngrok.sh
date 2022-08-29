@@ -70,4 +70,4 @@ clear
 echo
 cd
 cd nekropol
-bash install
+bash install.sh
