@@ -95,7 +95,7 @@ bash heroku.sh
 
 elif [[ $option == 06 || $option == 6 ]]; then
 cd $HOME/nekropol/core
-bash b_install.sh
+
 
 elif [[ $option == 07 || $option == 7 ]]; then
 cd $HOME/nekropol/core
