@@ -91,7 +91,7 @@ bash kali.sh
 
 elif [[ $option == 05 || $option == 5 ]]; then
 cd $HOME/nekropol/core/H
-bash heroku.sh
+bash install.sh
 
 elif [[ $option == 06 || $option == 6 ]]; then
 cd $HOME/nekropol/core/B
