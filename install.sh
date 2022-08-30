@@ -90,7 +90,7 @@ cd $HOME/nekropol/core
 bash kali.sh
 
 elif [[ $option == 05 || $option == 5 ]]; then
-cd $HOME/nekropol/core/H
+cd $HOME/nekropol/core/Termux-heroku-cli
 bash install.sh
 
 elif [[ $option == 06 || $option == 6 ]]; then
