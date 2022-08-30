@@ -90,15 +90,15 @@ cd $HOME/nekropol/core
 bash kali.sh
 
 elif [[ $option == 05 || $option == 5 ]]; then
-cd $HOME/nekropol/core
+cd $HOME/nekropol/core/H
 bash heroku.sh
 
 elif [[ $option == 06 || $option == 6 ]]; then
-cd $HOME/nekropol/core
+cd $HOME/nekropol/core/B
 
 
 elif [[ $option == 07 || $option == 7 ]]; then
-cd $HOME/nekropol/core
+cd $HOME/nekropol/core/U
 bash up.sh
 
 elif [[ $option == 08 || $option == 8 ]]; then
