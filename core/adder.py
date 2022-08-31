@@ -1,4 +1,4 @@
-from telethon import TelegramClient, events, sync,utils, telethon
+from telethon import TelegramClient, events, sync, utils
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.functions.messages import GetDialogsRequest
 from telethon.tl.types import InputPeerEmpty, InputPeerChannel, InputPeerUser
