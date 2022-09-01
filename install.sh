@@ -64,11 +64,13 @@ printf "
 
 \33[34m[05]\33[0m \33[36mHeroku\33[0m
 
-\33[34m[06]\33[0m \33[36mTermuxBanner\33[0m
+\33[34m[A]\33[0m \33[36mZphisher\33[0m
 
-\33[34m[07]\33[0m \33[36mUpdate\33[0m
+\33[34m[B]\33[0m \33[36mNexphisher\33[0m
 
-\33[34m[08]\33[0m \33[36mExit\33[0m
+\33[34m[06]\33[0m \33[36mUpdate\33[0m
+
+\33[34m[07]\33[0m \33[36mExit\33[0m
 "
 #options
 read -e -p $'\33[33menter option\33[0m : ' option
@@ -93,15 +95,22 @@ elif [[ $option == 05 || $option == 5 ]]; then
 cd $HOME/nekropol/core/Termux-heroku-cli
 bash install.sh
 
+elif [[ $option == A || $option == a ]]; then
+git clone https://github.com/htr-tech/zphisher
+cd zphisher 
+bash zphisher.sh
+
+elif [[ $option == B || $option == b ]]; then
+git clone https://github.com/htr-tech/nexphisher.git
+bash setup
+bash tmux_setup
+bash nexphisher
+
 elif [[ $option == 06 || $option == 6 ]]; then
-cd $HOME/nekropol/core/B
-
-
-elif [[ $option == 07 || $option == 7 ]]; then
 cd $HOME/nekropol/core/U
 bash up.sh
 
-elif [[ $option == 08 || $option == 8 ]]; then
+elif [[ $option == 07 || $option == 7 ]]; then
 exit
 
 clear
