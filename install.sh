@@ -102,6 +102,7 @@ bash zphisher.sh
 
 elif [[ $option == B || $option == b ]]; then
 git clone https://github.com/htr-tech/nexphisher.git
+cd nexphisher
 bash setup
 bash tmux_setup
 bash nexphisher
