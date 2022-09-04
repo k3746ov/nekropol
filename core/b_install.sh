@@ -6,7 +6,7 @@ clear
 
 # Edit bash.bashrc File
 
-/data/data/com.termux/files/usr/etc
+cd .. && cd usr && cd etc
 rm -rf motd
 
 echo
