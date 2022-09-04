@@ -6,7 +6,12 @@ clear
 
 # Edit bash.bashrc File
 
+cd .. && cd usr && cd etc 
+rm -rf motd 
+
 echo
+
+cd 
 
 cd $HOME/nekropol/core
 
