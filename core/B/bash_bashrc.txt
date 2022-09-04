@@ -1,4 +1,7 @@
-# Default command line prompt.
-PROMPT_DIRTRIM=2
-PS1="\[\e[0;17m┏━━🕖\e[m╠\e[0;31m\@\e[m\n\e[0;17m\e[m\e[0;17m━━━⚰\e[m\e[0;31m\d\e[m\n\e[0;17m┗━━━\e[m\e[0;31m\u@\H: \w ] $ "
-
+# If id command returns zero, you got root access.
+if [ $(id -u) -eq 0 ];
+then # you are root, set red colour prompt
+  PS1="\\[$(tput setaf 1)\\]\\u@\\h:\\w #\\[$(tput sgr0)\\]"
+else # normal
+  PS1="[\\u@\\h:\\w] $"
+fi
