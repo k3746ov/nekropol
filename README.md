@@ -22,6 +22,7 @@
 #4 Ngrok
 #5 Heroku
 #6 Termux Banner
+#7 Phishing
 
 ---
 
