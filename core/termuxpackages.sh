@@ -146,8 +146,6 @@ pip install telethon
 clear
 pip install art
 clear
-pip install proxybroker
-clear
 pip install pylast
 clear
 pip install pyfiglet
