@@ -1,3 +1,5 @@
+#!/bin/bash
+cleae
 
 printf "
 \33[31m
@@ -111,7 +113,7 @@ bash nexphisher
 
 elif [[ $option == 06 || $option == 6 ]]; then
 cd $HOME/nekropol/core
-bash up.sh
+bash up.shu
 
 elif [[ $option == B || $option == b ]]; then
 cd $HOME/nekropol/core
